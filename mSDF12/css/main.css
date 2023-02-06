@@ -1,0 +1,245 @@
+.icon { border: 0;}
+
+.radius {
+    border-radius: 10px;
+}
+
+/* ------------------------------------------P1------------------------------------------- */
+.text-lightgray {
+    color: #8E9198;
+}
+
+#p1 .page_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #4D5CAC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #141f55, #4D5CAC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #030e46, #4D5CAC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#p1 .tab_bar {
+    font-weight: normal;
+    display: flex;
+}
+
+#p1 .tab_bar .tab {
+    font-weight: normal;
+    display: flex;
+    align-items: flex-end;
+}
+
+#p1 .pg_top {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*20);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#p1 .pg_top .tab_bar {
+    height: calc(var(--vh, 1vh)*8);
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: 1px solid #A6AED3;
+    color: #A6AED3;
+}
+
+#p1 .pg_top .tab_bar .tab.selected {
+    color: #fff;
+    font-weight: 200;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-bottom: 3px solid #fff;
+}
+
+#p1 .pg_top .cont {
+    color: #fff;
+    height: calc(var(--vh, 1vh)*12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p1 .pg_bottom {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*67);
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#p1 .pg_bottom .top {
+    height: calc(var(--vh, 1vh)*60);
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#p1 .pg_bottom .top .tab_bar {
+    height: 32%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+    margin-bottom: .5em;
+}
+
+#p1 .pg_bottom .top .tab_bar .tab_wrap {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p1 .pg_bottom .top .icon_area{
+    width: 100%;
+    height: 67%;
+}
+
+#p1 .pg_bottom .top .icon_area .icon_wrap{
+    width: 100%;
+    height: 30%;
+}
+
+#p1 .pg_bottom .top .icon_area .icon_wrap .tab {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1 .pg_bottom .top .icon_area .icon_wrap .icon {
+    width: 60%;
+    height: auto;
+    border: 0;
+}
+
+#p1 .pg_bottom .under_bar {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*7);
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#p1 .pg_bottom .under_bar .under_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#p2 .under_bar {
+    width: 100%;
+    margin-top: .7em;
+    min-height: calc(var(--vh, 1vh)*21);
+    background: #fff;
+    position: unset;
+}
+
+#p2 .btn {
+    border-radius: 90px;
+}
+
+#p4 .under_bar {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*21);
+    background: #fff;
+}
+
+#p4 .btn,
+#p6 .btn {
+    min-height: calc(var(--vh, 1vh)*6);
+}
+
+#p5 .top_bar {
+    position: absolute;
+    left: 0; right: 0; top: 5%;
+    width: 90%;
+    height: calc(var(--vh, 1vh)*5);
+    background: #fff;
+    border-radius: 20px;
+}
+
+#p5 .under_bar {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*50);
+    background: #fff;
+}
+
+#p5 .under_bar .tab {
+    width: 100%;
+    /* height: 20%; */
+}
+
+#p5 .under_bar .tab .icon {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+#p5 .under_bar .tab .txt-wrap {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+}
+
+#p5 .under_bar .tab:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+
+#p5 .under_bar .tab .txt-wrap .txt {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#p5 .under_bar .tab .txt-wrap .text-left {
+    width: 60%;
+}
+
+#p5 .under_bar .tab .txt-wrap .text-left .detail {
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+
+#p5 .under_bar .tab .txt-wrap .text-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    /* min-width: 38%; */
+}
+
+
+
+#p6 .under_bar {
+    width: 100%;
+    height: calc(var(--vh, 1vh)*70);
+    background: #fff;
+}
+
+#p6 .icon{
+    min-width: 135px;
+    min-height: 135px;
+    border: 0;
+}
+
+#p6 .btn {
+    min-height: calc(var(--vh, 1vh)*5);
+}
