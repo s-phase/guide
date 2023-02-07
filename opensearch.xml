@@ -4,8 +4,8 @@
   <ShortName>My Site</ShortName>
   <Description>Search My Site</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://s-phase.github.io/guide/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://s-phase.github.io/guide/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://s-phase.github.io/guide/opensearch.xml" />
-  <moz:SearchForm>https://s-phase.github.io/guide/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://s-phase.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://s-phase.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://s-phase.github.io/opensearch.xml" />
+  <moz:SearchForm>https://s-phase.github.io/</moz:SearchForm>
 </OpenSearchDescription>
