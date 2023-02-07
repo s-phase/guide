@@ -4,8 +4,30 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+require('dotenv').config()
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+
+  plugins: 
+[
+    // Other plugins
+    [
+      'docusaurus-plugin-dotenv',
+      {
+          path: "./.env", 
+          systemvars: true, 
+      }
+    ]
+],
+
+  customFields: {
+    'APPLICATION_ID': process.env.APPLICATION_ID,
+    'API_KEY': process.env.API_KEY,
+  },
+
+  
+
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
@@ -69,6 +91,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      algolia: {
+        // The application ID provided by Algolia
+        appId: process.env.APPLICATION_ID,
+  
+        // Public API key: it is safe to commit it
+        apiKey: process.env.API_KEY,
+  
+        indexName: 'guide',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+        placeholder : "Search",
+  
+      },
+
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
