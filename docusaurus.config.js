@@ -33,7 +33,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://s-phase.github.io', // Your website URL
-  baseUrl: '/guide',
+  baseUrl: '/',
   projectName: 'guide',
   organizationName: 's-phase',
   trailingSlash: false,
