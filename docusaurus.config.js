@@ -104,7 +104,6 @@ const config = {
         // Optional: see doc section below
         contextualSearch: true,
         placeholder : "Search",
-        searchParameters: {},
   
       },
 
