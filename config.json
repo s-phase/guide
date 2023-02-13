@@ -1,10 +1,10 @@
 {
     "index_name": "guide",
     "start_urls": [
-      "https://s-phase.github.io/guide/"
+      "https://help.learned.kr/"
     ],
     "sitemap_urls": [
-      "https://s-phase.github.io/guide/sitemap.xml"
+      "https://help.learned.kr/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [
