@@ -34,7 +34,7 @@ const config = {
 
   url: 'https://help.learned.kr', // Your website URL
   baseUrl: '/',
-  projectName: '',
+  projectName: 'guide',
   organizationName: 's-phase',
   trailingSlash: false,
   // deploymentBranch:'main',
