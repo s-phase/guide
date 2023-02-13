@@ -32,9 +32,9 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: 'https://s-phase.github.io', // Your website URL
+  url: 'https://help.learned.kr', // Your website URL
   baseUrl: '/',
-  projectName: 'guide',
+  projectName: '',
   organizationName: 's-phase',
   trailingSlash: false,
   // deploymentBranch:'main',
